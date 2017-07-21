@@ -10,8 +10,16 @@
         "start": "node index.js"
     },
     "dependencies": {
+        "async": "*",
+        "body-parser": "*",
+        "cors": "*",
         "ejs": "2.5.6",
-        "express": "4.15.2"
+        "env": "0.0.2",
+        "express": "4.15.2",
+        "mongoose": "*",
+        "morgan": "*",
+        "mysql": "^2.13.0",
+        "node-env-file": "^0.1.8"
     },
     "repository": {
         "type": "git",
